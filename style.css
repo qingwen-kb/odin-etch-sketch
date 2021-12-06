@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+    font-size:1.1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
+.interface{
+display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.reset-btn, .submit-btn{
+padding: 5px 15px;
+border-radius:5px;
+}
+
+.container{
+    height:60rem;
+    width:60rem;
+    margin:auto;
+}
+.row{
+  display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.cell{
+    border: 2px solid black;
+    text-align: center;
+}
+
+.active{
+    background:burlywood;
+}
